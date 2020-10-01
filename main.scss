@@ -1,0 +1,126 @@
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+html { font-size: 100%; }
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media (min-width: 40rem) { 
+  html { font-size: 112%; }
+}
+
+/* Large screens (1024px) */
+@media (min-width: 64rem) { 
+  html { font-size: 120%; }
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+.doctor_name {
+  font-size: 1.5em;
+  font-style: italic;
+  font-family: georgia, palatino, book antiqua, palatino linotype, serif;
+}
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: flex-end;
+  a {
+    padding-left: 2rem;
+  }
+}
+.navigation {
+  padding-right: 2rem;
+  ul {
+    list-style: none;
+    li {
+      display: inline;
+      padding-left: 2rem;
+    }
+  }
+}
+a {
+  // color: #;
+}
+h2, h3 {
+  color: #0a9745;
+}
+.navigation_wrapper {
+  justify-content: flex-end;
+  display: flex;
+}
+.main_wrapper{
+  margin: 0 auto;
+  max-width: 50rem;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+html{
+  background-image: url(img/photo-1591213595166-82c13a93b1c8.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.header {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .doctor_name {
+
+  }
+  .contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  }
+}
+.person {
+  text-align: center;
+  strong{
+    font-size: 1.2rem;
+  }
+}
+.main_wrapper {
+  padding: 2rem;
+}
+.story {
+  padding-top: 1rem;
+}
+
+.header {
+
+}
+
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.8rem; 
+  .block{
+    margin: 30px;
+    .icon {
+    }
+    .text {
+      margin-left: 10px;
+    }
+    padding: 15px;
+    min-width: 3rem;
+    max-width: 12rem;
+    min-height: 8rem;
+    display: flex;
+    border: 2px solid #f5f5f5;
+  }
+}
